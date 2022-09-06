@@ -1,2 +1,2 @@
-i#!/bin/bash
-find . -path "/" -empty | rev | cut -d'/' -f1 | rev
+#!/bin/bash
+find . -empty -printf "%f\n"
