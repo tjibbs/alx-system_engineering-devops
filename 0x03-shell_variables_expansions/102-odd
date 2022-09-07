@@ -1,2 +1,2 @@
 #!/bin/bash
-per1 -1ne 'print if s. % 2 == 1'
+past -d, -- | cut -d, -f1
